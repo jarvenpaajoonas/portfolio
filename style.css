@@ -7,24 +7,24 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between; /* left & right sides */
+  justify-content: space-between; 
   align-items: center;
   background-color: #222;
   padding: 15px 0px;
 
-  position: fixed;   /* 🟢 make it stay fixed */
-  top: 0;            /* 🟢 stick to the very top */
+  position: fixed;   
+  top: 0;          
   left: 0;
-  width: 100%;       /* 🟢 span full width */
-  z-index: 1000;     /* 🟢 keeps it on top of other content */
+  width: 100%;       
+  z-index: 1000;     
 }
 
 .nav-left {
-  margin-left: 5px;  /* breathing room on the left */
+  margin-left: 5px; 
 }
 
 .nav-right {
-  margin-right: 10px; /* adjust how close to edge */
+  margin-right: 10px;
 }
 
 nav a {
@@ -61,11 +61,12 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
-  padding-top: 70px; /* 🟢 same height as your nav bar */
+  padding-top: 70px; 
 }
 
 html {
-  scroll-behavior: smooth;   /* smooth scrolling */
-  scroll-padding-top: 70px;  /* same height as your navbar */
+  scroll-behavior: smooth;  
+  scroll-padding-top: 70px;
 }
+
 
